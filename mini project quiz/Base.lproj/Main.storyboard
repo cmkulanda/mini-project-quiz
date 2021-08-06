@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mini_project_quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEy-Gz-a4w">
+                                <rect key="frame" x="180" y="779" width="204" height="45"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="next question">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="luE-wt-jZo" kind="show" id="5pA-z2-SVA"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="what classic book was inspiration for the song 'tolerate it' on the album evermore?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vX-eO-90L">
+                                <rect key="frame" x="30" y="100" width="354" height="130"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1o-9X-uYh">
+                                <rect key="frame" x="102" y="308" width="217" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="  the great gatsby  ">
+                                    <color key="titleColor" red="0.60392156862745094" green="0.60392156862745094" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonOneTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mda-wW-t4d"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iV6-Rd-fvq">
+                                <rect key="frame" x="146" y="426" width="122" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="  rebecca  ">
+                                    <color key="titleColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTwoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Flg-rQ-kCn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nope, but the great gatsby was inspiration for the song 'happiness' on evermore!✨" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePg-jU-34Z">
+                                <rect key="frame" x="43" y="663" width="328" height="86"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fcl-jZ-Y6u">
+                                <rect key="frame" x="141" y="546" width="138" height="45"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="  jane eyre  ">
+                                    <color key="titleColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonThreeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9wc-xq-leI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.75294117647058822" green="0.75294117647058822" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OEy-Gz-a4w" firstAttribute="top" secondItem="ePg-jU-34Z" secondAttribute="bottom" constant="30" id="J1F-9Y-t57"/>
+                            <constraint firstItem="8vX-eO-90L" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="Qho-el-TdD"/>
+                            <constraint firstItem="8vX-eO-90L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="TEx-ax-jMO"/>
+                            <constraint firstItem="fcl-jZ-Y6u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="141" id="Ycz-VR-aRT"/>
+                            <constraint firstAttribute="trailing" secondItem="ePg-jU-34Z" secondAttribute="trailing" constant="43" id="bYq-dy-ZkS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fcl-jZ-Y6u" secondAttribute="trailing" constant="135" id="d0t-nC-L0b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8vX-eO-90L" secondAttribute="trailing" constant="30" id="i0Q-o1-P4f"/>
+                            <constraint firstItem="OEy-Gz-a4w" firstAttribute="top" secondItem="8vX-eO-90L" secondAttribute="bottom" constant="549" id="kc5-GJ-ion"/>
+                            <constraint firstItem="ePg-jU-34Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="43" id="qrN-zT-cRR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OEy-Gz-a4w" secondAttribute="trailing" constant="30" id="vgM-gP-NxO"/>
+                            <constraint firstItem="ePg-jU-34Z" firstAttribute="top" secondItem="fcl-jZ-Y6u" secondAttribute="bottom" constant="72" id="vqh-qj-3kF"/>
+                            <constraint firstItem="OEy-Gz-a4w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="180" id="zIz-AV-jvY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="hiddenLabelOne" destination="ePg-jU-34Z" id="xw2-YO-1u0"/>
+                        <outlet property="questionOne" destination="8vX-eO-90L" id="XCm-Zj-fAg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="78.348214285714278"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="YA2-2u-IRq">
+            <objects>
+                <viewController id="luE-wt-jZo" customClass="secondViewController" customModule="mini_project_quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pbr-l4-GSl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in her song 'the lakes', which lake is taylor swift referring to?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jP-oA-T3d">
+                                <rect key="frame" x="30" y="56" width="354" height="65"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LB6-Y3-cvo">
+                                <rect key="frame" x="180" y="726" width="204" height="45"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="next question">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xQy-Gu-tYH" kind="show" id="a0h-Lk-rhH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n85-zc-skz">
+                                <rect key="frame" x="38" y="249" width="340" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="  the lakes district in england  ">
+                                    <color key="titleColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonOne:" destination="luE-wt-jZo" eventType="touchUpInside" id="eh7-qg-7zm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2T2-32-er2">
+                                <rect key="frame" x="22" y="368" width="374" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="  lake superior in north america  ">
+                                    <color key="titleColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTwo:" destination="luE-wt-jZo" eventType="touchUpInside" id="8am-5o-OTJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzo-qF-24r">
+                                <rect key="frame" x="60" y="489" width="301" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="  loch lomond in scotland  ">
+                                    <color key="titleColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonThree:" destination="luE-wt-jZo" eventType="touchUpInside" id="s3i-23-83G"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yes! it it said that taylor swift and her boyfriend, joe alwyn have spent a lot of time together here! 🌊" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYH-FG-tfF">
+                                <rect key="frame" x="43" y="581.5" width="328" height="114.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PrF-tM-j8F"/>
+                        <color key="backgroundColor" red="0.75294117650000003" green="0.75294117650000003" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8jP-oA-T3d" firstAttribute="leading" secondItem="PrF-tM-j8F" secondAttribute="leading" constant="30" id="1Vd-MP-xR2"/>
+                            <constraint firstItem="LB6-Y3-cvo" firstAttribute="top" secondItem="8jP-oA-T3d" secondAttribute="bottom" constant="605" id="HZ7-q0-Vfz"/>
+                            <constraint firstAttribute="trailing" secondItem="8jP-oA-T3d" secondAttribute="trailing" constant="30" id="IYB-pi-DUv"/>
+                            <constraint firstItem="jYH-FG-tfF" firstAttribute="leading" secondItem="PrF-tM-j8F" secondAttribute="leading" constant="43" id="NmC-Hp-jvx"/>
+                            <constraint firstAttribute="trailing" secondItem="jYH-FG-tfF" secondAttribute="trailing" constant="43" id="PTt-nZ-Hil"/>
+                            <constraint firstItem="PrF-tM-j8F" firstAttribute="trailing" secondItem="LB6-Y3-cvo" secondAttribute="trailing" constant="30" id="QOm-DE-Qek"/>
+                            <constraint firstItem="LB6-Y3-cvo" firstAttribute="top" secondItem="jYH-FG-tfF" secondAttribute="bottom" constant="30" id="SS3-0U-kTZ"/>
+                            <constraint firstItem="8jP-oA-T3d" firstAttribute="top" secondItem="PrF-tM-j8F" secondAttribute="top" constant="56" id="UD4-ya-aCB"/>
+                            <constraint firstItem="LB6-Y3-cvo" firstAttribute="leading" secondItem="PrF-tM-j8F" secondAttribute="leading" constant="180" id="eiI-Lw-Oyg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jah-wr-74T"/>
+                    <connections>
+                        <outlet property="hiddenLabelOne" destination="jYH-FG-tfF" id="jLy-B5-Njc"/>
+                        <outlet property="questionTwo" destination="8jP-oA-T3d" id="Kh7-vz-ncb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z1a-mm-R8K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786.95652173913049" y="77.678571428571431"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="Tfi-l7-heY">
+            <objects>
+                <viewController id="xQy-Gu-tYH" customClass="thirdViewController" customModule="mini_project_quiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nwZ-mW-87e">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in what song(s) does taylor swift reference the classic poem, 'the road not taken' by robert frost?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SmN-0G-9uX">
+                                <rect key="frame" x="30" y="56" width="354" height="130"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hy4-Qx-8wr">
+                                <rect key="frame" x="127" y="250" width="161" height="45"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="  illicit affairs  ">
+                                    <color key="titleColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonOne:" destination="xQy-Gu-tYH" eventType="touchUpInside" id="5jN-gL-8W6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6I-WB-eV9">
+                                <rect key="frame" x="78" y="368" width="260" height="45"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="  'tis the damn season  ">
+                                    <color key="titleColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTwo:" destination="xQy-Gu-tYH" eventType="touchUpInside" id="it9-0x-ZRF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gm-LU-uId">
+                                <rect key="frame" x="162" y="489.5" width="90" height="45"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <state key="normal" title="  both   ">
+                                    <color key="titleColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonThree:" destination="xQy-Gu-tYH" eventType="touchUpInside" id="s7G-BE-dx7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="you're half right.. 🤫" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rk-Sx-adB">
+                                <rect key="frame" x="43" y="594.5" width="328" height="29"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <color key="textColor" red="0.95686274510000002" green="0.92156862750000001" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kKr-6J-tqu"/>
+                        <color key="backgroundColor" red="0.75294117650000003" green="0.75294117650000003" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9rk-Sx-adB" firstAttribute="top" secondItem="7gm-LU-uId" secondAttribute="bottom" constant="60" id="0SX-MQ-VMP"/>
+                            <constraint firstItem="SmN-0G-9uX" firstAttribute="leading" secondItem="kKr-6J-tqu" secondAttribute="leading" constant="30" id="1Fv-Rq-LEm"/>
+                            <constraint firstItem="kKr-6J-tqu" firstAttribute="trailing" secondItem="9rk-Sx-adB" secondAttribute="trailing" constant="43" id="1bK-iq-xnB"/>
+                            <constraint firstItem="K6I-WB-eV9" firstAttribute="leading" secondItem="kKr-6J-tqu" secondAttribute="leading" constant="78" id="2NM-1h-tFg"/>
+                            <constraint firstItem="hy4-Qx-8wr" firstAttribute="top" secondItem="SmN-0G-9uX" secondAttribute="bottom" constant="64" id="BRh-A9-wSQ"/>
+                            <constraint firstItem="SmN-0G-9uX" firstAttribute="top" secondItem="kKr-6J-tqu" secondAttribute="top" constant="56" id="Cpv-Ip-gBT"/>
+                            <constraint firstAttribute="trailing" secondItem="SmN-0G-9uX" secondAttribute="trailing" constant="30" id="Eey-6H-Dyh"/>
+                            <constraint firstItem="9rk-Sx-adB" firstAttribute="leading" secondItem="kKr-6J-tqu" secondAttribute="leading" constant="43" id="OJi-ta-SR3"/>
+                            <constraint firstItem="kKr-6J-tqu" firstAttribute="trailing" secondItem="7gm-LU-uId" secondAttribute="trailing" constant="162" id="QF6-w1-Znq"/>
+                            <constraint firstItem="kKr-6J-tqu" firstAttribute="trailing" secondItem="hy4-Qx-8wr" secondAttribute="trailing" constant="126" id="UFF-sD-ak2"/>
+                            <constraint firstItem="hy4-Qx-8wr" firstAttribute="leading" secondItem="kKr-6J-tqu" secondAttribute="leading" constant="127" id="gKP-UJ-rnN"/>
+                            <constraint firstItem="7gm-LU-uId" firstAttribute="top" secondItem="K6I-WB-eV9" secondAttribute="bottom" constant="76.5" id="mN5-ba-gJe"/>
+                            <constraint firstItem="K6I-WB-eV9" firstAttribute="top" secondItem="hy4-Qx-8wr" secondAttribute="bottom" constant="73" id="oGp-b1-fGc"/>
+                            <constraint firstItem="7gm-LU-uId" firstAttribute="leading" secondItem="kKr-6J-tqu" secondAttribute="leading" constant="162" id="ptd-GO-skR"/>
+                            <constraint firstItem="kKr-6J-tqu" firstAttribute="trailing" secondItem="K6I-WB-eV9" secondAttribute="trailing" constant="76" id="py9-GR-sgy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q0C-k6-SKh"/>
+                    <connections>
+                        <outlet property="hiddenLabelOne" destination="9rk-Sx-adB" id="rAm-PP-AaM"/>
+                        <outlet property="questionThree" destination="SmN-0G-9uX" id="MT4-B3-cG1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cWW-81-1WH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1458" y="78"/>
+        </scene>
+    </scenes>
+</document>
